@@ -9,7 +9,7 @@ export default{
             categorias:[] as ICategoria[]
         }
     },
-
+    components:{CardCategoria},
     async created(){
       this.categorias = await obterCategorias();
     }
