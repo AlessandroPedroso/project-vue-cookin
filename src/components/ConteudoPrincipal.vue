@@ -110,6 +110,7 @@ export default {
         @buscar-receitas="navegar('MostrarReceitas')"
       />
       <MostrarReceitas
+        :ingredientes="ingredientes"
         v-else-if="conteudo === 'MostrarReceitas'"
         @editar-receitas="navegar('SelecionarIngredientes')"
       />

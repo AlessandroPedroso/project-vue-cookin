@@ -2,7 +2,7 @@
     export default{
         props:{
 
-            texto: {type: String, require: true}
+            texto: {type: String, required: true}
         }
     }
 </script>

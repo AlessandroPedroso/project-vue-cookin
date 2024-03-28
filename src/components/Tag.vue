@@ -2,7 +2,7 @@
 
 export default {
     props: {
-        texto: { type: String, require: true },
+        texto: { type: String, required: true },
         ativa: Boolean// padrão já vem com default:false, poderia deixar somente o boolean nesse caso é mais simples
     }
 }

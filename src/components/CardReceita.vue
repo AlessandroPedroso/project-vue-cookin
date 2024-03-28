@@ -4,7 +4,7 @@ import type { PropType } from "vue";
 
 export default {
   props: {
-    receita: { type: Object as PropType<IReceita>, require: true },
+    receita: { type: Object as PropType<IReceita>, required: true },
   },
 };
 </script>
